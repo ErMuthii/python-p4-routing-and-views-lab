@@ -17,7 +17,7 @@ def print_string(words):
 def count(value):
     numbers = range(1, value + 1)
 
-    html = ''.join(f'<h2>{x}</h2>' for x in numbers)
+    html = ''.join(f'<h1>{x}</h1>' for x in numbers)
     return html
 
     # for x in numbers:
@@ -37,7 +37,7 @@ def math(num1, operation, num2):
         result = num1 % num2
     else:
         return 'Invalid operation'
-    return f'<h2>{num1} {operation} {num2} = {result}</h2>'
+    return f'<h1>{num1} {operation} {num2} = {result}</h1>'
 
 
 
